@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #0E0A27;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Nav */
+#navbar{
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos del header */
+header {
+  background: #0E0A27;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 140px;
+  z-index: 9999;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  position: fixed;
+}
+
+
+/* Estilos de las secciones */
+#section {
+  display: flex;
+  justify-content: left;
+  align-items:start;
+  flex-direction: column;
+  text-align: right;
+  /*padding-top: 150px; */
+  display: flex;
+  flex-direction: row;
+}
+
+#Inicio {
+  margin-top: 140px;
+  z-index: 1;
+}
+
+
+#Mockup {
+   padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1{
+  font-size: 16px;
+}
+.client_box {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.client_box img {
+  width: 310px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+/* Estilos del footer */
+footer {
+  /*background-color: #333;*/
+  /*color: #fff;*/
+  padding: 20px;
+  text-align: center;
+  background: #110c30;
+}
