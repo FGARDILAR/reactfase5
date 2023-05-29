@@ -22,7 +22,7 @@ function App() {
         <p>Estudiante: Fabian Guillermo Ardila Rojas</p>
         <p>Id: 1.095.922.175</p>
         <h4>ENLACE PROYECTO</h4>
-        <a href="./public/inicio.html"> Click para ir al Proyecto </a>
+        <a href="/inicio.html"> Click para ir al Proyecto </a>
       </p>
     </>
   )
